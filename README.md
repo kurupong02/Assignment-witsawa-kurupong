@@ -1,6 +1,6 @@
 # Assignment
 
-Web Application: Income and Expense Recording
+Web Application: Income and Expense Recording<br>
 Web app with React and Node.js + any MongoDB
 
 ## Frontend Developer
