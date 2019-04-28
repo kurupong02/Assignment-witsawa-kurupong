@@ -5,7 +5,7 @@ Web app with React and Node.js + any MongoDB
 
 ## Frontend Developer
 1. Install libary by `yarn install`
-2. You can run web by `yarn run api`
+2. You can run web by `yarn start`
 
 ## Backend Developer
 
