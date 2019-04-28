@@ -9,8 +9,8 @@ import Transactions from '../components/transactions'
 import Navbar from '../components/navbar'
 import TitleSort from '../components/titleSort'
 
-// const API = 'https://assignment-api.dev.witsawa.com';
-const API = 'http://localhost:8080';
+const API = 'https://assignment-api.dev.witsawa.com';
+// const API = 'http://localhost:8080';
 const options = [
     { value: 'income', label: 'income' },
     { value: 'expense', label: 'expense' },

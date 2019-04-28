@@ -5,7 +5,7 @@ import iconChartfrom from '../resource/image/pie-chart.png'
 import iconSearch from '../resource/image/search.png'
 import Chart from '../components/chart'
 
-class navbar extends Component {
+class NavbarTop extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -88,4 +88,4 @@ class navbar extends Component {
     }
 }
 
-export default navbar
+export default NavbarTop

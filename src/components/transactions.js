@@ -6,14 +6,14 @@ import { Input, Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'react
 import iconDeletefrom from '../resource/image/delete.png';
 import iconEdit from '../resource/image/edit.png';
 
-// const API = 'https://assignment-api.dev.witsawa.com';
-const API = 'http://localhost:8080';
+const API = 'https://assignment-api.dev.witsawa.com';
+// const API = 'http://localhost:8080';
 const options = [
     { value: 'income', label: 'income' },
     { value: 'expense', label: 'expense' },
 ];
 
-class transactions extends Component {
+class Transactions extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -84,7 +84,7 @@ class transactions extends Component {
             })
         };
 
-        fetch(`${API}/transactions/${_id}`, requestOptions)
+        fetch(`${API}/T/${_id}`, requestOptions)
             .then((response) => Promise.all([response, response.json()]))
             .then(([response, responseJson]) => {
                 if (response.ok) {
@@ -180,4 +180,4 @@ class transactions extends Component {
     }
 }
 
-export default transactions
+export default Transactions

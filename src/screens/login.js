@@ -3,8 +3,8 @@ import { Form, FormGroup, Label, Input, Alert, Card, CardHeader, CardBody, Butto
 import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux'
 
-// const API = 'https://assignment-api.dev.witsawa.com';
-const API = 'http://localhost:8080'
+const API = 'https://assignment-api.dev.witsawa.com';
+// const API = 'http://localhost:8080'
 
 class Login extends Component {
     constructor(props) {

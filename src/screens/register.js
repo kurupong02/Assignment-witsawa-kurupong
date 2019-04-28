@@ -3,8 +3,8 @@ import { Form, FormGroup, Label, Input, FormFeedback, Card, CardHeader, CardBody
 import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router-dom'
 
-// const API = 'https://assignment-api.dev.witsawa.com';
-const API = 'http://localhost:8080';
+const API = 'https://assignment-api.dev.witsawa.com';
+// const API = 'http://localhost:8080';
 
 class Register extends Component {
     constructor(props) {
